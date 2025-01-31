@@ -1,3 +1,20 @@
+# do Lab2.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is emily@LAPTOP-PMJAGAQS.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 12:27:14 on Jan 31,2025
+# vlog Crkt2.sv Crkt2_tb.sv 
+# -- Compiling module Crkt2
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:27:14 on Jan 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 12:27:14 on Jan 31,2025
+# ** Note: (vsim-3812) Design is being optimized...
 # //  ModelSim SE-64 2021.3 Jul 13 2021
 # //
 # //  Copyright 1991-2021 Mentor Graphics Corporation
@@ -11,32 +28,32 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# do ckt1.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is emily@LAPTOP-PMJAGAQS.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Errors: 0, Warnings: 1
-# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 12:33:47 on Jan 24,2025
-# vlog -reportprogress 300 ckt1.sv tb_ckt1.sv 
-# -- Compiling module ckt1
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 12:33:47 on Jan 24,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.tb 
-# Start time: 12:33:47 on Jan 24,2025
-# ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.tb(fast)
-# Loading work.ckt1(fast)
-# .main_pane.list.interior.cs.body
-# .main_pane.wave.interior.cs.body.pw.wf
+# Loading work.Crkt2(fast)
+# .list
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: emily  Hostname: LAPTOP-PMJAGAQS  ProcessID: 25076
-#           Attempting to use alternate WLF file "./wlfttxmt95".
+#           Attempting to use alternate WLF file "./wlft4ix87s".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfttxmt95
-# End time: 12:38:46 on Jan 24,2025, Elapsed time: 0:04:59
+#           Using alternate file: ./wlft4ix87s
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# Time=0 | a=0 | b=0 | c=0 | y=0
+# Time=10000 | a=0 | b=0 | c=1 | y=1
+# Time=30000 | a=0 | b=1 | c=0 | y=1
+# Time=40000 | a=0 | b=1 | c=1 | y=1
+# Time=60000 | a=1 | b=0 | c=0 | y=0
+# Time=70000 | a=1 | b=0 | c=1 | y=0
+# Time=90000 | a=1 | b=1 | c=0 | y=1
+# Time=100000 | a=1 | b=1 | c=1 | y=1
+# ** Note: $finish    : Crkt2_tb.sv(35)
+#    Time: 120 ns  Iteration: 0  Instance: /tb
+# End time: 12:27:15 on Jan 31,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 2
