@@ -1,14 +1,14 @@
 `timescale 1ns / 1ps
 module tb ();
 
-   logic    _;
-   logic	_;
-   logic	_;
-   logic	_;
+   logic    a;
+   logic	b;
+   logic	c;
+   logic	y;
    logic	clk;   
    
    // instantiate device under test
-   ____ dut (_,_,_,_ );
+   ckt1 dut (a ,b ,c ,y );
    
    // 20 ns clock
    initial 
