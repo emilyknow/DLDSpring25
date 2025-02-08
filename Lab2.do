@@ -24,7 +24,7 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog Crkt2.sv Crkt2_tb.sv
+vlog Crkt1.sv Crkt1_tb.sv
 
 # start and run simulation
 vsim -voptargs=+acc work.tb

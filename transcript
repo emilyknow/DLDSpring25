@@ -3,17 +3,17 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # Errors: 0, Warnings: 1
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 12:27:14 on Jan 31,2025
-# vlog Crkt2.sv Crkt2_tb.sv 
-# -- Compiling module Crkt2
+# Start time: 14:25:51 on Feb 08,2025
+# vlog Crkt1.sv Crkt1_tb.sv 
+# -- Compiling module Crkt1
 # -- Compiling module tb
 # 
 # Top level modules:
 # 	tb
-# End time: 12:27:14 on Jan 31,2025, Elapsed time: 0:00:00
+# End time: 14:25:51 on Feb 08,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.tb 
-# Start time: 12:27:14 on Jan 31,2025
+# Start time: 14:25:51 on Feb 08,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # //  ModelSim SE-64 2021.3 Jul 13 2021
 # //
@@ -30,13 +30,13 @@
 # //
 # Loading sv_std.std
 # Loading work.tb(fast)
-# Loading work.Crkt2(fast)
+# Loading work.Crkt1(fast)
 # .list
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: emily  Hostname: LAPTOP-PMJAGAQS  ProcessID: 25076
-#           Attempting to use alternate WLF file "./wlft4ix87s".
+#           Attempting to use alternate WLF file "./wlfth036tf".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft4ix87s
+#           Using alternate file: ./wlfth036tf
 # configure wave not supported in batch mode
 # configure wave not supported in batch mode
 # configure wave not supported in batch mode
@@ -47,13 +47,13 @@
 # configure wave not supported in batch mode
 # Time=0 | a=0 | b=0 | c=0 | y=0
 # Time=10000 | a=0 | b=0 | c=1 | y=1
-# Time=30000 | a=0 | b=1 | c=0 | y=1
-# Time=40000 | a=0 | b=1 | c=1 | y=1
-# Time=60000 | a=1 | b=0 | c=0 | y=0
-# Time=70000 | a=1 | b=0 | c=1 | y=0
-# Time=90000 | a=1 | b=1 | c=0 | y=1
-# Time=100000 | a=1 | b=1 | c=1 | y=1
-# ** Note: $finish    : Crkt2_tb.sv(35)
-#    Time: 120 ns  Iteration: 0  Instance: /tb
-# End time: 12:27:15 on Jan 31,2025, Elapsed time: 0:00:01
+# Time=20000 | a=0 | b=1 | c=0 | y=0
+# Time=30000 | a=0 | b=1 | c=1 | y=0
+# Time=40000 | a=1 | b=0 | c=0 | y=0
+# Time=50000 | a=1 | b=0 | c=1 | y=1
+# Time=60000 | a=1 | b=1 | c=0 | y=0
+# Time=70000 | a=1 | b=1 | c=1 | y=1
+# ** Note: $finish    : Crkt1_tb.sv(35)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# End time: 14:25:52 on Feb 08,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 2
